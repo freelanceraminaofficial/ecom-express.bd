@@ -4,9 +4,9 @@ import { BsSearch, BsBagHeartFill } from "react-icons/bs";
 import { RiShoppingBag2Fill } from "react-icons/ri";
 import { FaBars, FaHome, FaInfoCircle, FaPhone, FaStore } from "react-icons/fa";
 
-import useCart from "./hooks/useCart";
+import useCart from "../hooks/useCart";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import DrawerLayout from "./DrawerLayout";
+import DrawerLayout from "../components/DrawerLayout";
 
 const Navbar = ({ setCartOpen }) => {
   const [isScrolled, setIsScrolled] = useState(false);

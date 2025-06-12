@@ -1,9 +1,9 @@
-import useCart from "./hooks/useCart";
-import useAxiosPublic from "./hooks/useAxiosPublic";
 import { useNavigate } from "react-router-dom";
 import { RxCross2 } from "react-icons/rx";
 import CartItem from "./CartItem";
 import CartFooter from "./CartFooter";
+import useCart from "../../hooks/useCart";
+import useAxiosPublic from "../../hooks/useAxiosPublic";
 
 const CartDrawer = ({ isOpen, onClose }) => {
   const [cartItems, refetch] = useCart();

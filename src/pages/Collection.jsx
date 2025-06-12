@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useProducts from "../hooks/useProducts";
 import FilterSidebar from "../components/FilterSidebar";
-import ProductCard from "./ProductCard";
+import ProductCard from "../components/ProductCard";
 import { FaX } from "react-icons/fa6";
 import { FiFilter } from "react-icons/fi";
 import { useLocation, useOutletContext } from "react-router-dom";

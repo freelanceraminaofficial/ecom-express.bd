@@ -1,7 +1,7 @@
 // Layout.jsx
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import CartDrawer from "./CartDrawer";
+import CartDrawer from "../src/components/Cart/CartDrawer";
 import { Outlet } from "react-router-dom";
 import { useState } from "react";
 
