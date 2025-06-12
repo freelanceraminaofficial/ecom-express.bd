@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+  @import "tailwindcss";
+
+  @plugin "daisyui" {
+   themes: false;
+  
+  }
+
+* {
+    font-family: Outfit, sans-serif;
+}
+
+
+@layer utilities {
+  .container {
+    @apply max-w-[1700px] mx-auto px-4 py-4;
+  }
+  .container2 {
+    @apply max-w-[1600px] mx-auto px-4 py-4;
+  }
+}
+   
+
+
+
+/* Inside your global CSS */
+/* input[type='range']::-webkit-slider-runnable-track {
+  background-color: #f9a8d4; /* pink-300 */
+  /* border-radius: 200px;  */
+/* } */
+/* input[type='range']::-webkit-slider-thumb {
+  background-color: #be185d; /* pink-700 */
+
+
+
+
+
